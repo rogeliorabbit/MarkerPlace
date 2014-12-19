@@ -1,0 +1,10 @@
+<resources>
+    <!-- Application theme. -->
+    <style name="ViewMarker" parent="Theme.AppCompat.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <!-- Support library compatibility -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+</resources>

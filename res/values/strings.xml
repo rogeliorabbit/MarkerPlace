@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarkerPlace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_share">Compartir</string>
+    
+    <string name="str_btn_find">Buscar</string>
+    <string name="search_title">Buscar sitio</string>
+    <string name="hnt_et_location">Localización</string>
+    <string name="lat">Latitud</string>
+    <string name="lng">Longitud</string>
+    
+    <string name="loadmap">Cargando mapa</string>
+    <string name="loadu">Cargando ubicación</string>
+    <string name="no_markers">No hay sitios guardados</string>
+    <string name="info1">Añade sitios desde "Buscar Sitio".\r\nDesde MapMarker podrás ver tus sitios situados en un mapa.</string>
+    <string name="mpmk_info">Pulsa en un marker.</string>
+    <string name="my_markers">Mis sitios</string>
+    <string name="add_marker_title">Añadir marcador</string>
+    <string name="delete_marker_ask">Borrar marker</string>
+    <string name="add_marker">Guardar</string>
+    <string name="delete_marker">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="btn_delete_marker">Borrar</string>
+    <string name="btn_edit_marker">Editar marcador</string>
+    <string name="openmap">Maps</string>
+    <string name="opennav">Navigation</string>
+    <string name="main_btn_searchmap">Buscar sitio</string>
+    <string name="main_btn_mapmarker">MapMarker</string>
+    <string name="marker_edit">Editando: </string>
+    <string name="marker_edit_done">Editado </string>
+    <string name="marker_save_done">Guardado </string>
+    <string name="save_marker_error1">Debes rellenar nombre y descripción</string>
+    
+    <string name="marker_save">Guardar Sitio</string>
+    <string name="view_marker">Marker</string>
+    <string name="edit_marker">Editar Marker</string>
+    <string name="map_marker">MapMarker</string>
+
+</resources>
