@@ -69,6 +69,8 @@
 	            android:name="android.support.PARENT_ACTIVITY"
 	            android:value="com.hitglynorthz.markerplace.MainActivity" />
         </activity>
+        <!-- Acerca de -->
+        <activity android:name="com.hitglynorthz.markerplace.Info" android:label="@string/action_info" android:screenOrientation="portrait" ></activity>
  
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"

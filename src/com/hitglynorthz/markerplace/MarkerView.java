@@ -34,12 +34,14 @@ import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MarkerView extends ActionBarActivity {
+public class MarkerView extends ActionBarActivity implements OnClickListener {
 	private DBManager manager;
 	private Cursor cursor;
 	private GoogleMap googleMap;
@@ -55,11 +57,19 @@ public class MarkerView extends ActionBarActivity {
     double latitude;
     double longitude;
     LatLng latLng;
+    private Button btn_openmap;
+    private Button btn_opennav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.marker_view);
+        
+        // Botones
+        btn_openmap = (Button) findViewById(R.id.btn_openmap);
+        btn_openmap.setOnClickListener(this);
+        btn_opennav = (Button) findViewById(R.id.btn_opennav);
+        btn_opennav.setOnClickListener(this);
         
         // Iniciamos el mapa y le decimos mediante map_settings que no haya zoom, scroll, etc. para mostrar un mapa "plano"
         googleMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
@@ -147,6 +157,7 @@ public class MarkerView extends ActionBarActivity {
 	    return BitmapFactory.decodeFile(path, options);
 	}
     
+	// Funciones para los botones
     public void btn_delete() {
     	DialogFragment dialogFragment = new AddMarkerDialogFragment();
         dialogFragment.show(getSupportFragmentManager(), "");
@@ -166,17 +177,20 @@ public class MarkerView extends ActionBarActivity {
  	   	this.finish();
     }
     
-    public void btn_openmap(View v) {
-    	String uri = String.format(Locale.ENGLISH, "geo:%f,%f", latitude, longitude);
-    	Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
-    	startActivity(intent);
-    }
-    
-    public void btn_opennav(View v) {
-    	Uri gmmIntentUri = Uri.parse("google.navigation:q=" + latitude + ", " + longitude);
-    	Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-    	mapIntent.setPackage("com.google.android.apps.maps");
-    	startActivity(mapIntent);
+    public void onClick(View view) {
+    	switch(view.getId()) {
+    		case R.id.btn_openmap:
+        			String uri = String.format(Locale.ENGLISH, "geo:%f,%f", latitude, longitude);
+        			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+        			startActivity(intent);
+    		break;
+    		case R.id.btn_opennav:
+        			Uri gmmIntentUri = Uri.parse("google.navigation:q=" + latitude + ", " + longitude);
+        			Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        			mapIntent.setPackage("com.google.android.apps.maps");
+        			startActivity(mapIntent);
+    		break;
+    	}
     }
     
     // Dialog para preguntar si se está seguro de borrar un sitio
@@ -218,6 +232,8 @@ public class MarkerView extends ActionBarActivity {
             NavUtils.navigateUpFromSameTask(this);
             return true;
         case R.id.action_settings:
+    		Intent intent = new Intent(this, Info.class);
+    		startActivity(intent);
         	return true;
         case R.id.action_delete:
         	btn_delete();

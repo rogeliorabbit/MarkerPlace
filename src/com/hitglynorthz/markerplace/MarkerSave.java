@@ -209,6 +209,8 @@ public class MarkerSave extends ActionBarActivity implements OnClickListener {
         	finish();
             return true;
         case R.id.action_settings:
+    		Intent i = new Intent(this, Info.class);
+    		startActivity(i);
         	return true;
         }
         return super.onOptionsItemSelected(item);

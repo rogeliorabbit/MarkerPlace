@@ -121,6 +121,8 @@ public class MapsMarkerView extends ActionBarActivity {
             NavUtils.navigateUpFromSameTask(this);
             return true;
         case R.id.action_settings:
+    		Intent intent = new Intent(this, Info.class);
+    		startActivity(intent);
         	return true;
         }
         return super.onOptionsItemSelected(item);

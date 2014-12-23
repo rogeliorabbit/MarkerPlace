@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="action_search">Buscar</string>
     <string name="action_share">Compartir</string>
+    <string name="action_info">Acerca de</string>
     
     <string name="str_btn_find">Buscar</string>
     <string name="search_title">Buscar sitio</string>
@@ -17,6 +18,8 @@
     <string name="loadu">Cargando ubicación</string>
     <string name="no_markers">No hay sitios guardados</string>
     <string name="info1">Añade sitios desde "Buscar Sitio".\r\nDesde MapMarker podrás ver tus sitios situados en un mapa.</string>
+    <string name="info1_large">Añade sitios desde "Buscar Sitio". Puedes buscar directamente en el mapa o usar el buscador. Mantén pulsado el mapa para crear un marker, pulsando encima de el podrás guardarlo.\r\nDesde MapMarker podrás ver tus sitios situados en un mapa.</string>
+    <string name="who">Aplicación creada por Rubén Díaz como proyecto para el curso de programación Android de Exitae.</string>
     <string name="mpmk_info">Pulsa en un marker.</string>
     <string name="my_markers">Mis sitios</string>
     <string name="add_marker_title">Añadir marcador</string>

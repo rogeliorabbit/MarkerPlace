@@ -83,6 +83,8 @@ public class MarkerEdit extends ActionBarActivity {
         	finish();
             return true;
         case R.id.action_settings:
+    		Intent intent = new Intent(this, Info.class);
+    		startActivity(intent);
         	return true;
         }
         return super.onOptionsItemSelected(item);

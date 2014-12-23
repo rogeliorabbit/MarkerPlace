@@ -2032,7 +2032,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020062;
     }
     public static final class id {
-        public static final int ScrollView1=0x7f0b0065;
+        public static final int ScrollView1=0x7f0b0067;
         public static final int action_bar=0x7f0b0042;
         public static final int action_bar_activity_content=0x7f0b0003;
         public static final int action_bar_container=0x7f0b0041;
@@ -2041,33 +2041,32 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b0030;
         public static final int action_bar_title=0x7f0b002f;
         public static final int action_context_bar=0x7f0b0043;
-        public static final int action_delete=0x7f0b0073;
-        public static final int action_edit=0x7f0b0074;
+        public static final int action_delete=0x7f0b0074;
+        public static final int action_edit=0x7f0b0075;
         public static final int action_menu_divider=0x7f0b0005;
         public static final int action_menu_presenter=0x7f0b0006;
         public static final int action_mode_bar=0x7f0b003f;
         public static final int action_mode_bar_stub=0x7f0b003e;
         public static final int action_mode_close_button=0x7f0b0031;
-        public static final int action_search=0x7f0b0072;
-        public static final int action_settings=0x7f0b0071;
+        public static final int action_settings=0x7f0b0073;
         public static final int activity_chooser_view_content=0x7f0b0032;
         public static final int always=0x7f0b0025;
         public static final int beginning=0x7f0b002c;
         public static final int book_now=0x7f0b0017;
-        public static final int btn_find=0x7f0b005f;
+        public static final int btn_find=0x7f0b0061;
         public static final int btn_galeria=0x7f0b0055;
         public static final int btn_img=0x7f0b0054;
-        public static final int btn_map=0x7f0b005a;
-        public static final int btn_mkview=0x7f0b0063;
-        public static final int btn_mpmrkrs=0x7f0b005b;
-        public static final int btn_openmap=0x7f0b006c;
-        public static final int btn_opennav=0x7f0b006d;
+        public static final int btn_map=0x7f0b005c;
+        public static final int btn_mkview=0x7f0b0065;
+        public static final int btn_mpmrkrs=0x7f0b005d;
+        public static final int btn_openmap=0x7f0b006e;
+        public static final int btn_opennav=0x7f0b006f;
         public static final int btn_save=0x7f0b0057;
         public static final int buyButton=0x7f0b0013;
         public static final int buy_now=0x7f0b0018;
         public static final int buy_with_google=0x7f0b0019;
         public static final int checkbox=0x7f0b003a;
-        public static final int child=0x7f0b0066;
+        public static final int child=0x7f0b0068;
         public static final int classic=0x7f0b001a;
         public static final int collapseActionView=0x7f0b0026;
         public static final int decor_content_parent=0x7f0b0040;
@@ -2081,7 +2080,7 @@ containing a value of this type.
         public static final int editText_name=0x7f0b0050;
         public static final int edit_query=0x7f0b0044;
         public static final int end=0x7f0b002d;
-        public static final int et_location=0x7f0b0060;
+        public static final int et_location=0x7f0b0062;
         public static final int expand_activities_button=0x7f0b0033;
         public static final int expanded_menu=0x7f0b0039;
         public static final int grayscale=0x7f0b001b;
@@ -2094,21 +2093,22 @@ containing a value of this type.
         public static final int ifRoom=0x7f0b0027;
         public static final int image=0x7f0b0034;
         public static final int img_iv=0x7f0b0056;
-        public static final int img_mv=0x7f0b006a;
-        public static final int info1=0x7f0b005e;
-        public static final int listMarkers=0x7f0b005d;
-        public static final int listMarkersLayout=0x7f0b0058;
+        public static final int img_mv=0x7f0b006c;
+        public static final int info1=0x7f0b0060;
+        public static final int info1_large=0x7f0b0058;
+        public static final int listMarkers=0x7f0b005f;
+        public static final int listMarkersLayout=0x7f0b005a;
         public static final int listMode=0x7f0b001d;
         public static final int list_item=0x7f0b0036;
-        public static final int map=0x7f0b0061;
-        public static final int marker_placedesc=0x7f0b0068;
-        public static final int marker_placename=0x7f0b0067;
-        public static final int marker_tv_id=0x7f0b0069;
+        public static final int map=0x7f0b0063;
+        public static final int marker_placedesc=0x7f0b006a;
+        public static final int marker_placename=0x7f0b0069;
+        public static final int marker_tv_id=0x7f0b006b;
         public static final int match_parent=0x7f0b0015;
         public static final int middle=0x7f0b002e;
         public static final int monochrome=0x7f0b001c;
-        public static final int my_markers=0x7f0b005c;
-        public static final int name_place=0x7f0b0062;
+        public static final int my_markers=0x7f0b005e;
+        public static final int name_place=0x7f0b0064;
         public static final int never=0x7f0b0028;
         public static final int none=0x7f0b000a;
         public static final int normal=0x7f0b000b;
@@ -2137,16 +2137,17 @@ containing a value of this type.
         public static final int strict_sandbox=0x7f0b0012;
         public static final int submit_area=0x7f0b004d;
         public static final int tabMode=0x7f0b001e;
-        public static final int tableRow1=0x7f0b0059;
-        public static final int tableRow2=0x7f0b006b;
+        public static final int tableRow1=0x7f0b005b;
+        public static final int tableRow2=0x7f0b006d;
         public static final int terrain=0x7f0b000d;
-        public static final int text1=0x7f0b006e;
-        public static final int text2=0x7f0b006f;
-        public static final int text3=0x7f0b0070;
+        public static final int text1=0x7f0b0070;
+        public static final int text2=0x7f0b0071;
+        public static final int text3=0x7f0b0072;
         public static final int title=0x7f0b0038;
-        public static final int tv_snippet=0x7f0b0064;
+        public static final int tv_snippet=0x7f0b0066;
         public static final int up=0x7f0b0001;
         public static final int useLogo=0x7f0b0024;
+        public static final int who=0x7f0b0059;
         public static final int withText=0x7f0b0029;
         public static final int wrap_content=0x7f0b0016;
     }
@@ -2201,17 +2202,17 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int add_marker=0x7f030017;
-        public static final int main_layout=0x7f030018;
-        public static final int map_layout=0x7f030019;
-        public static final int map_marker_view=0x7f03001a;
-        public static final int marker_view=0x7f03001b;
-        public static final int row_layout=0x7f03001c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int info_layout=0x7f030018;
+        public static final int main_layout=0x7f030019;
+        public static final int map_layout=0x7f03001a;
+        public static final int map_marker_view=0x7f03001b;
+        public static final int marker_view=0x7f03001c;
+        public static final int row_layout=0x7f03001d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
-        public static final int menu_search=0x7f0c0001;
-        public static final int menu_view=0x7f0c0002;
+        public static final int menu_view=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -2271,15 +2272,16 @@ containing a value of this type.
          */
         public static final int abc_toolbar_collapse_description=0x7f060027;
         public static final int accept=0x7f060002;
+        public static final int action_info=0x7f060038;
         public static final int action_search=0x7f060036;
         public static final int action_settings=0x7f060035;
         public static final int action_share=0x7f060037;
-        public static final int add_marker=0x7f060045;
-        public static final int add_marker_title=0x7f060043;
+        public static final int add_marker=0x7f060048;
+        public static final int add_marker_title=0x7f060046;
         public static final int app_name=0x7f060033;
-        public static final int btn_delete_marker=0x7f060048;
-        public static final int btn_edit_marker=0x7f060049;
-        public static final int cancel=0x7f060047;
+        public static final int btn_delete_marker=0x7f06004b;
+        public static final int btn_edit_marker=0x7f06004c;
+        public static final int cancel=0x7f06004a;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f060009;
@@ -2382,38 +2384,40 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
-        public static final int delete_marker=0x7f060046;
-        public static final int delete_marker_ask=0x7f060044;
-        public static final int edit_marker=0x7f060054;
+        public static final int delete_marker=0x7f060049;
+        public static final int delete_marker_ask=0x7f060047;
+        public static final int edit_marker=0x7f060057;
         public static final int hello_world=0x7f060034;
-        public static final int hnt_et_location=0x7f06003a;
-        public static final int info1=0x7f060040;
-        public static final int lat=0x7f06003b;
-        public static final int lng=0x7f06003c;
-        public static final int loadmap=0x7f06003d;
-        public static final int loadu=0x7f06003e;
-        public static final int main_btn_mapmarker=0x7f06004d;
-        public static final int main_btn_searchmap=0x7f06004c;
-        public static final int map_marker=0x7f060055;
-        public static final int marker_edit=0x7f06004e;
-        public static final int marker_edit_done=0x7f06004f;
-        public static final int marker_save=0x7f060052;
-        public static final int marker_save_done=0x7f060050;
-        public static final int mpmk_info=0x7f060041;
-        public static final int my_markers=0x7f060042;
-        public static final int no_markers=0x7f06003f;
-        public static final int openmap=0x7f06004a;
-        public static final int opennav=0x7f06004b;
-        public static final int save_marker_error1=0x7f060051;
-        public static final int search_title=0x7f060039;
+        public static final int hnt_et_location=0x7f06003b;
+        public static final int info1=0x7f060041;
+        public static final int info1_large=0x7f060042;
+        public static final int lat=0x7f06003c;
+        public static final int lng=0x7f06003d;
+        public static final int loadmap=0x7f06003e;
+        public static final int loadu=0x7f06003f;
+        public static final int main_btn_mapmarker=0x7f060050;
+        public static final int main_btn_searchmap=0x7f06004f;
+        public static final int map_marker=0x7f060058;
+        public static final int marker_edit=0x7f060051;
+        public static final int marker_edit_done=0x7f060052;
+        public static final int marker_save=0x7f060055;
+        public static final int marker_save_done=0x7f060053;
+        public static final int mpmk_info=0x7f060044;
+        public static final int my_markers=0x7f060045;
+        public static final int no_markers=0x7f060040;
+        public static final int openmap=0x7f06004d;
+        public static final int opennav=0x7f06004e;
+        public static final int save_marker_error1=0x7f060054;
+        public static final int search_title=0x7f06003a;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
-        public static final int str_btn_find=0x7f060038;
-        public static final int view_marker=0x7f060053;
+        public static final int str_btn_find=0x7f060039;
+        public static final int view_marker=0x7f060056;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
         public static final int wallet_buy_button_place_holder=0x7f060022;
+        public static final int who=0x7f060043;
     }
     public static final class style {
         /** 

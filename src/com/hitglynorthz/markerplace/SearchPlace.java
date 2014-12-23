@@ -228,14 +228,7 @@ public class SearchPlace extends ActionBarActivity implements LocationListener, 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_search, menu);
-
-        // Get the SearchView and set the searchable configuration
-        searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
-        // Assumes current activity is the searchable activity
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        searchView.setIconifiedByDefault(false);
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -246,10 +239,9 @@ public class SearchPlace extends ActionBarActivity implements LocationListener, 
         case android.R.id.home:
             NavUtils.navigateUpFromSameTask(this);
             return true;
-        case R.id.action_search:
-        	searchView.getQuery();
-        	return true;
         case R.id.action_settings:
+    		Intent intent = new Intent(this, Info.class);
+    		startActivity(intent);
         	return true;
         }
         return super.onOptionsItemSelected(item);
